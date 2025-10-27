@@ -1,0 +1,201 @@
+/* ================================
+    ESTILO GERAL DO SITE
+================================ */
+body {
+  font-family: 'Poppins', sans-serif; 
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7; 
+  color: #76a069; 
+  
+}
+
+
+.menu {
+  list-style-type: none; 
+  margin: 0; 
+  padding: 0; 
+}
+
+
+/* Cabeçalho principal (onde fica o nome da ONG e menu de navegação) */
+header {
+  background-color: #76a069; 
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+/* Links do menu no cabeçalho */
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* ================================
+   SEÇÃO QUEM SOMOS (index.html)
+=============================== */
+section {
+  text-align: center; 
+  margin: 50px auto;
+  width: 90%;
+  max-width: 1000px;
+  background-color: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Título “Quem Somos” */
+section h2 {
+  color: #76a069;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+/* Texto “A ONG Esperança Viva atua há anos...” */
+section p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #333;
+  max-width: 800px; 
+  margin: 0 auto 30px; 
+  text-align: justify; 
+}
+
+/* Imagem abaixo do texto (ex: planta, doação etc) */
+section img {
+  display: block;
+  margin: 40px auto 0;
+  max-width: 70%; 
+  border-radius: 10px; 
+}
+
+/* ================================
+ PÁGINA DE PROJETOS (projetos.html)
+================================ */
+.projetos {
+  background-color: white;
+  width: 90%;
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ text-align: center;
+ margin-bottom: 40px;
+ margin-top: 60px;
+}
+
+.projetos h2 {
+  color: #76a069;
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 20px;
+  margin-top: 60px;
+}
+
+
+.projetos p {
+  font-size: 18px;
+  text-align: center;
+  line-height: 1.6;
+  color: #333;
+}
+
+
+
+/* ================================
+   📝 PÁGINA DE CADASTRO (cadastro.html)
+================================ */
+
+/* Título “Cadastre-se para ser voluntário ou doador” */
+form h2 {
+  color: #2e5b2e;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Caixa geral do formulário */
+form {
+  width: 90%;
+  max-width: 800px;
+  margin: 40px auto;
+  background-color: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Informações Pessoais, Endereço */
+fieldset {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 25px;
+  padding: 20px;
+}
+
+/* Títulos dentro dos fieldsets */
+legend {
+  font-weight: bold;
+  color: #2e5b2e;
+}
+
+/* Labels dos campos (ex: “Nome Completo:”, “E-mail:”) */
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Campos de texto ee e-mail */
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="tel"],
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+/* Botão de envio */
+button {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  background-color: #2e5b2e;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3f7f3f;
+}
+
+/* ================================
+   RODAPÉ (todas as páginas)
+================================ */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #2e5b2e;
+  color: white;
+  margin-top: 50px;
+  border-radius: 10px 10px 0 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
